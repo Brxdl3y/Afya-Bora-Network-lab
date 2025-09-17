@@ -1,0 +1,97 @@
+Afya Bora Clinic Network CLI COMMANDS
+
+HQ ACCESS SWITCH 
+!
+enable secret VLAN
+hostname HQ-ACCESS-SW1
+!
+interface FastEthernet0/1
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 10,20,30
+ switchport mode trunk
+!
+interface FastEthernet0/2
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/5
+ switchport access vlan 30
+ switchport mode access
+ !
+ vlan 10
+name PHARMACY-&-CONSULTATION
+vlan 30
+name XRAY-&-EMERGENCY
+!
+
+##################################################
+
+HQ CORE SWIITCH
+!
+enable secret VLAN
+hostname HQ-CORE-SW
+!
+interface FastEthernet0/1
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 10,20,30
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/2
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 10,20,30
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/5
+ switchport access vlan 20
+ switchport mode access
+!
+ip route 0.0.0.0 0.0.0.0 176.12.8.43
+!
+vlan 10
+name LABORATORY
+vlan 20
+name RECEPTION
+!
+#######################################################
+
+ISP ROUTER 
+!
+enable secret VLAN 
+hostname ISP-EDGE-RTR
+!
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 10.0.0.1 255.255.255.192
+!
+interface GigabitEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 10.0.0.65 255.255.255.192
+!
+interface GigabitEthernet0/0.30
+ encapsulation dot1Q 30
+ ip address 10.0.0.129 255.255.255.192
+!
+interface GigabitEthernet0/1
+ ip address 176.12.8.43 255.255.0.0
+ duplex auto
+ speed auto
+ !
+ ip route 0.0.0.0 0.0.0.0 176.12.8.1
