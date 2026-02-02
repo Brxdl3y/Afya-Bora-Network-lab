@@ -75,8 +75,8 @@ OSPF MD5 authentication to prevent rogue routing updates.
 
 It’s designed to show that I can handle both **small-scale clinics and enterprise-level networks** with equal sophistication.
 
-AUTHOR: **Bradley Giovanni**  | CCNA Enthusiast  |  Networking Guru
+AUTHOR: **Bradley Giovanni**  | CCNA Enthusiast  |  Network Eng  | Network Admin
 
-EMAIL: giovanniibradley@gmail.com
+EMAIL: **giovanniibradley@gmail.com**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bradley-giovanniii293)
