@@ -6,9 +6,9 @@ The **Afya Bora Clinic Network** is a simulated enterprise-grade network built i
 
 This topology integrates:
 
-**VLAN segmentation** for different clinic departments.
+🔷**VLAN segmentation** for different clinic departments.
 
-**Inter-VLAN Routing** using both **ROAS** (Router-on-a-Stick) and **SVIs** (Switch Virtual Interfaces).
+🔷**Inter-VLAN Routing** using both **ROAS** (Router-on-a-Stick) and **SVIs** (Switch Virtual Interfaces).
 
 **Dynamic routing** with OSPF for internal and upstream ISP communication.
 
@@ -16,15 +16,15 @@ This topology integrates:
 
 **Subnetting strategy** (/26 subnets per department) for efficiency and scalability.
 
-**ACLs** to enforce traffic restrictions between sensitive areas (e.g., restricting Pharmacy from accessing Lab results directly).
+🔷**ACLs** to enforce traffic restrictions between sensitive areas (e.g., restricting Pharmacy from accessing Lab results directly).
 
-**DHCP services** for automatic IP allocation.
+🔷**DHCP services** for automatic IP allocation.
 
 **NAT/PAT** for secure Internet access through the ISP router.
 
 **Redundancy** & Failover simulation using FHRP **(HSRP/GLBP concepts)**.
 
-Secure device management **(SSH, strong passwords, MOTD banners)**.
+🔷Secure device management **(SSH, strong passwords, MOTD banners)**.
 
 
 This project not only solves basic connectivity but also demonstrates enterprise-class best practices in **security, redundancy, and scalability**.
