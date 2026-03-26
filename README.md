@@ -10,19 +10,19 @@ This topology integrates:
 
 🔷**Inter-VLAN Routing** using both **ROAS** (Router-on-a-Stick) and **SVIs** (Switch Virtual Interfaces).
 
-**Dynamic routing** with OSPF for internal and upstream ISP communication.
+🔷**Dynamic routing** with OSPF for internal and upstream ISP communication.
 
-**MD5 authentication** for routing protocol security.
+🔷**MD5 authentication** for routing protocol security.
 
-**Subnetting strategy** (/26 subnets per department) for efficiency and scalability.
+🔷**Subnetting strategy** (/26 subnets per department) for efficiency and scalability.
 
 🔷**ACLs** to enforce traffic restrictions between sensitive areas (e.g., restricting Pharmacy from accessing Lab results directly).
 
 🔷**DHCP services** for automatic IP allocation.
 
-**NAT/PAT** for secure Internet access through the ISP router.
+🔷**NAT/PAT** for secure Internet access through the ISP router.
 
-**Redundancy** & Failover simulation using FHRP **(HSRP/GLBP concepts)**.
+🔷**Redundancy** & Failover simulation using FHRP **(HSRP/GLBP concepts)**.
 
 🔷Secure device management **(SSH, strong passwords, MOTD banners)**.
 
