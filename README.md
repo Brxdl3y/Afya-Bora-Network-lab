@@ -1,6 +1,6 @@
 **Afya Bora Clinic Network** 
 
- **Overview**
+📌 **Overview**
 
 The **Afya Bora Clinic Network** is a simulated enterprise-grade network built in Cisco Packet Tracer to demonstrate **design, configuration, and troubleshooting skills** at both Layer 2 and Layer 3. It reflects real-world scenarios such as healthcare operations that require **high availability, secure access, and seamless interconnectivity** between departments.
 
@@ -30,7 +30,7 @@ This topology integrates:
 This project not only solves basic connectivity but also demonstrates enterprise-class best practices in **security, redundancy, and scalability**.
 
 
-**Goals & What this demonstrates** 
+📌**Goals & What this demonstrates** 
 
 **Solid network design fundamentals**: VLAN separation per functional area, SVI inter-VLAN routing on the L3 switch, and clean IP addressing/subnetting.
 
@@ -43,7 +43,7 @@ This project not only solves basic connectivity but also demonstrates enterprise
 **Advanced but practical features**: QoS for voice/data segregation, NAT for Internet access, EtherChannel basics, and optional NetFlow templates for traffic analysis.
 
 
- **Department VLAN & Subnet Plan**
+📌 **Department VLAN & Subnet Plan**
 
 
 Department	VLAN ID	Subnet	Gateway
