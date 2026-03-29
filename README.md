@@ -36,9 +36,9 @@ This project not only solves basic connectivity but also demonstrates enterprise
 
 ✔**Resilience & availability**: HSRP and clear interface descriptions to support troubleshooting and handoffs.
 
-**Security-first mindset**: Management-plane protection (SSH, ACLs), port-security on access ports, ACLs for inter-VLAN access control, and OSPF MD5 authentication on routing adjacencies.
+✔**Security-first mindset**: Management-plane protection (SSH, ACLs), port-security on access ports, ACLs for inter-VLAN access control, and OSPF MD5 authentication on routing adjacencies.
 
-**Operational excellence**: NTP, logging, SNMP read-only for monitoring, interface descriptions, and sample verification commands — all show that you design for operations, not just connectivity.
+✔**Operational excellence**: NTP, logging, SNMP read-only for monitoring, interface descriptions, and sample verification commands — all show that you design for operations, not just connectivity.
 
 ✔**Advanced but practical features**: QoS for voice/data segregation, NAT for Internet access, EtherChannel basics, and optional NetFlow templates for traffic analysis.
 
