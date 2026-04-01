@@ -61,11 +61,11 @@ Department	VLAN ID	Subnet	Gateway
 **Laboratory**	10	10.0.3.0/26	10.0.0.252
 
 
- **Security Enhancements**
+ 🎯**Security Enhancements**
 
-SSH access only (Telnet disabled).
+✅SSH access only (Telnet disabled).
 
-AAA local authentication with encrypted passwords.
+✅AAA local authentication with encrypted passwords.
 
 Port security on access ports (sticky MACs, violation shutdown).
 
