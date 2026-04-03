@@ -67,11 +67,11 @@ Department	VLAN ID	Subnet	Gateway
 
 ✅AAA local authentication with encrypted passwords.
 
-Port security on access ports (sticky MACs, violation shutdown).
+✅Port security on access ports (sticky MACs, violation shutdown).
 
-ACLs to control inter-department communication.
+✅ACLs to control inter-department communication.
 
-OSPF MD5 authentication to prevent rogue routing updates. 
+✅OSPF MD5 authentication to prevent rogue routing updates. 
 
 
 It’s designed to show that I can handle both **small-scale clinics and enterprise-level networks** with equal sophistication.
